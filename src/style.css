@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+} 
+p  { 
+    margin:0;   
+    padding:0; 
+}
+
+.owner {
+    text-align: center; 
+    border-radius:10px 10px 0 0;  
+    overflow:hidden; 
+}
+
+.owner__name {
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 100%;
+    margin: 19px 70px 7px;
+}
+
+.owner__position {
+    margin: 0 auto;
+    color: #F47D27;
+    font-size: 12.8px;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+.owner__website {
+    font-size: 10.24px;
+    font-weight: 400;
+    line-height: 150%;
+    text-decoration: none;
+    color: #4A4E74;
+    margin: 9px auto 0px;
+}
+
+.owner__contact {
+    margin:17px auto 0; 
+    width:273px;   
+        
+    display:flex; 
+    justify-content:space-between;
+    border:1px solid transparent; 
+}
+
+.owner__email {
+    width: 115px;
+    height: 34px;
+    background: #D1D5DB;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 94%;
+    color: #374151;
+}
+
+.fa-envelope {
+    margin: 0 10px
+}
+
+.owner__linkedin {
+    width: 115px;
+    height: 34px;
+    background: #297FE5;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    padding: 9px 13px 9px 11px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 94%;
+    color: #FFFFFF;
+}
+
+.fa-linkedin {
+    width: 13px;
+    height: 13px;
+    margin: 0 9px
+}
+
+.about, .interests { 
+    margin:0 auto;   
+    border:1px solid transparent; 
+    width:273px; 
+    margin-top: 25px;  
+}
+
+.about__title,.interests__title {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 0px;
+}
+
+.about__info,.interests__info {
+    margin: 5px 0 0 0;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+} 
+.footer { 
+    height:65px;  
+    margin-top:31px;
+    background-color:#D5D4D8; 
+    border-radius: 0 0 10px 10px;   
+    display:flex; 
+    justify-content:space-around; 
+    align-items:center;
+}  
+
+.fa-twitter-square,  
+.fa-facebook-square,  
+.fa-instagram-square,  
+.fa-github-square { 
+   font-size:30px; 
+   color:#918E9B;
+}
+
+
+
+
+#root { 
+    max-width: 319px;
+    border: 1px solid transparent;
+    background-color: #F5F5F5; 
+    margin:0 auto; 
+}
